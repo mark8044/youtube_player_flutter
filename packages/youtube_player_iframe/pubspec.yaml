@@ -12,8 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # flutter_inappwebview: ^5.7.2+2
-  flutter_inappwebview: ^5.8.0
+  flutter_inappwebview: ^6.1.2
   url_launcher: ^6.1.7
 
 dev_dependencies:
