@@ -145,8 +145,8 @@ class _MobileYoutubePlayerState extends State<RawYoutubePlayer>
     super.dispose();
   }
 
-  Uri get _baseUrl {
-    return Uri.parse(
+  WebUri get _baseUrl {
+    return WebUri(
       controller.params.privacyEnhanced
           ? 'https://www.youtube-nocookie.com'
           : 'https://www.youtube.com',
